@@ -10,7 +10,8 @@ The goal of this project is to create a minimalist template (initial scaffolding
 ## Features
 
 * Gulp build;
-* Directory structure by feature.
+* Folders-by-Feature Structure;
+* Follows the [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1).
 
 ## How to use
 
