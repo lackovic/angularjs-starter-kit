@@ -9,13 +9,13 @@ const buildDir = './dist';
 
 gulp.task('css', function () {
     gulp.src(styles)
-        .pipe(concat('main.css'))
+        .pipe(concat('style.css'))
         .pipe(gulp.dest(buildDir + '/css'));
 });
 
 gulp.task('js', function () {
     gulp.src(scripts)
-        .pipe(concat('scripts.js'))
+        .pipe(concat('script.js'))
         .pipe(gulp.dest(buildDir + '/js'));
 });
 
