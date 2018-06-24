@@ -1,15 +1,14 @@
 # A starter kit for projects using the latest version of AngularJS
 
+A minimalist template (initial scaffolding or skeleton), similar to the seed app project.
+
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/lackovic/angularjs-starter-kit)
-
-The goal of this project is to create a minimalist template (initial scaffolding or skeleton), similar to the seed app project, but with the following differences:
-
-* uses the version of AngularJS;
-* uses [yarn](https://yarnpkg.com/lang/en/) instead of [bower](https://bower.io).
 
 ## Features
 
-* Gulp build;
+* Latest version of [AngularJS](https://angularjs.org);
+* [Yarn](https://yarnpkg.com/lang/en/) as package manager;
+* [Gulp](https://gulpjs.com) for building;
 * Folders-by-Feature Structure;
 * Follows the [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1).
 
@@ -21,4 +20,4 @@ The goal of this project is to create a minimalist template (initial scaffolding
 
 ## Attribution
 
-This project was inspired by [AngularJS with Gulp Step by Step](https://youtu.be/p9ZngMW80-k).
+Inspired by [AngularJS with Gulp Step by Step](https://youtu.be/p9ZngMW80-k).
