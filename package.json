@@ -1,0 +1,9 @@
+{
+  "name": "angularjs-starter-kit",
+  "version": "1.0.0",
+  "description": "A minimalist AngularJS starter project",
+  "main": "index.js",
+  "repository": "https://github.com/lackovic/angularjs-starter-kit",
+  "author": "Marco Lackovic <marco.lackovic@gmail.com>",
+  "license": "MIT"
+}
