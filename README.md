@@ -5,7 +5,7 @@
 The goal of this project is to create a minimalist template (initial scaffolding or skeleton), similar to the seed app project, but with the following differences:
 
 * uses the version of AngularJS;
-* uses `yarn` instead of `bower`.
+* uses [yarn](https://yarnpkg.com/lang/en/) instead of [bower](https://bower.io).
 
 ## How to use
 
