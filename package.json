@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/lackovic/angularjs-starter-kit",
   "author": "Marco Lackovic <marco.lackovic@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
 }
