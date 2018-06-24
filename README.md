@@ -7,6 +7,11 @@ The goal of this project is to create a minimalist template (initial scaffolding
 * uses the version of AngularJS;
 * uses [yarn](https://yarnpkg.com/lang/en/) instead of [bower](https://bower.io).
 
+## Features
+
+* Gulp build;
+* Directory structure by feature.
+
 ## How to use
 
 1. clone or download
