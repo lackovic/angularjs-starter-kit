@@ -11,7 +11,8 @@
     "angular-route": "latest"
   },
   "devDependencies": {
-    "gulp": "latest",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
     "gulp-concat": "latest"
   }
 }

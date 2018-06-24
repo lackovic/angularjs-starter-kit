@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const concat = require('gulp-concat');
+var del = require('del');
 
 const scripts = require('./scripts');
 const styles = require('./styles');
@@ -24,6 +25,10 @@ gulp.task('html', function () {
         .pipe(gulp.dest(buildDir));
 });
 
-gulp.task('build', ['css', 'js', 'html']);
+gulp.task('clean', function () {
+    return del([buildDir + '**/*']);
+});
+
+gulp.task('build', ['clean', 'css', 'js', 'html']);
 
 gulp.task('default', ['build']);
