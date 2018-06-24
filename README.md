@@ -1,6 +1,6 @@
 # A starter kit for projects using the latest version of AngularJS
 
-A minimalist template (initial scaffolding or skeleton), similar to the seed app project.
+A minimalist template (initial scaffolding or skeleton), similar to the [seed app project](https://github.com/angular/angular-seed).
 
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/lackovic/angularjs-starter-kit)
 
