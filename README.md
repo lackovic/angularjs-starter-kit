@@ -4,7 +4,15 @@
 
 The goal of this project is to create a minimalist template (initial scaffolding or skeleton), similar to the seed app project, but with the following differences:
 
-1. uses the version of AngularJS;
-2. uses `yarn` instead of `bower`.
+* uses the version of AngularJS;
+* uses `yarn` instead of `bower`.
+
+## How to use
+
+1. clone or download
+2. `yarn`
+3. `gulp build`
+
+## Attribution
 
 This project was inspired by [AngularJS with Gulp Step by Step](https://youtu.be/p9ZngMW80-k).
