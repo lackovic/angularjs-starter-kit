@@ -20,6 +20,7 @@ A minimalist template (initial scaffolding or skeleton), similar to the [seed ap
 2. `yarn`
 3. `gulp build`
 
-## Attribution
+## Inspired by
 
-Inspired by [AngularJS with Gulp Step by Step](https://youtu.be/p9ZngMW80-k).
+* [AngularJS with Gulp Step by Step](https://youtu.be/p9ZngMW80-k) by Mark Winterbottom
+* [Designing and Building Component-based AngularJS Applications](https://app.pluralsight.com/library/courses/component-based-angularjs-applications) by Miguel Castro
