@@ -9,6 +9,14 @@
     function HomeController() {
         var vm = this;
         vm.message = 'Home sweet home!';
+
+        activate();
+
+        ////////////
+
+        function activate() {
+            // Resolve start-up logic
+        }
     }
 
 })();

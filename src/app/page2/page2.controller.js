@@ -9,6 +9,14 @@
     function Page2Controller() {
         var vm = this;
         vm.message = 'Page 2!';
+
+        activate();
+
+        ////////////
+
+        function activate() {
+            // Resolve start-up logic
+        }
     }
 
 })();

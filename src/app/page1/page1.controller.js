@@ -9,6 +9,15 @@
     function Page1Controller() {
         var vm = this;
         vm.message = 'Page 1!';
+
+        activate();
+
+        ////////////
+
+        function activate() {
+            // Resolve start-up logic
+        }
+
     }
 
 })();
