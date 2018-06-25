@@ -7,12 +7,12 @@
   "author": "Marco Lackovic <marco.lackovic@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "angular": "latest",
-    "angular-route": "latest"
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2"
   },
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-concat": "latest"
+    "gulp-concat": "^2.6.1"
   }
 }
