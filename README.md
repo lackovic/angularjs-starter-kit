@@ -9,8 +9,9 @@ A minimalist template (initial scaffolding or skeleton), similar to the [seed ap
 * Latest version of [AngularJS](https://angularjs.org);
 * [Yarn](https://yarnpkg.com/lang/en/) as package manager;
 * [Gulp](https://gulpjs.com) for building;
-* Folders-by-Feature Structure;
 * Follows the [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1).
+  * Folders-by-Feature Structure;
+  * ~~Uses [AngularUI Router](http://angular-ui.github.io/ui-router/) for client-side routing~~ (work in progress).
 
 ## How to use
 
