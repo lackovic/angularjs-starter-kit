@@ -2,7 +2,7 @@
 
 A minimalist template (initial scaffolding or skeleton), similar to the [seed app project](https://github.com/angular/angular-seed).
 
-[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/lackovic/angularjs-starter-kit)
+[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/lackovic/angularjs-starter-kit) [![Greenkeeper badge](https://badges.greenkeeper.io/lackovic/angularjs-starter-kit.svg)](https://greenkeeper.io/)
 
 ## Features
 
