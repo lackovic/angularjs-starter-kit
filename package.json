@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "angular": "^1.7.2",
-    "angular-route": "^1.7.2"
+    "angular-ui-router": "^1.0.18"
   },
   "devDependencies": {
     "del": "^3.0.0",
