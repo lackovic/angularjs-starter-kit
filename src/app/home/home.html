@@ -1,11 +1,8 @@
 <div>
     <h1>{{ vm.message }}</h1>
 
-    <button ng-click="vm.choice = 1">Page 1</button>
-    <button ng-click="vm.choice = 2">Page 2</button>
+    <button ng-click="vm.choice = 1">Button 1</button>
+    <button ng-click="vm.choice = 2">Button 2</button>
 
-    Button pressed: {{ vm.choice }}
-
-    <page1 ng-if="vm.choice == 1"></page1>
-    <page2 ng-if="vm.choice == 2"></page2>
+    <h2>Button pressed: {{ vm.choice }}</h2>
 </div>
