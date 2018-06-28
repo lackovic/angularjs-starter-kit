@@ -8,7 +8,7 @@
 
     function HomeController() {
         var vm = this;
-        vm.message = 'Home sweet home!';
+        vm.header = 'Home sweet home!';
 
         activate();
 

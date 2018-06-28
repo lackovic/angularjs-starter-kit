@@ -1,14 +1,14 @@
-// page1.controller.js
+// posts.controller.js
 (function () {
     'use strict';
 
     angular
         .module('app')
-        .controller('Page1Controller', Page1Controller);
+        .controller('PostsController', PostsController);
 
-    function Page1Controller() {
+    function PostsController() {
         var vm = this;
-        vm.message = 'Page 1!';
+        vm.header = 'Posts';
 
         activate();
 

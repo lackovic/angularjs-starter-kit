@@ -16,13 +16,13 @@
             url: '/',
             template: '<home></home>'
         }, {
-            name: 'page1',
-            url: '/page1',
-            template: '<page1></page1>'
+            name: 'albums',
+            url: '/albums',
+            template: '<albums></albums>'
         }, {
-            name: 'page2',
-            url: '/page2',
-            template: '<page2></page2>'
+            name: 'posts',
+            url: '/posts',
+            template: '<posts></posts>'
         }];
         states.forEach(function (state) {
             $stateProvider.state(state);

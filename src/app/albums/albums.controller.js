@@ -1,14 +1,14 @@
-// page1.controller.js
+// albums.controller.js
 (function () {
     'use strict';
 
     angular
         .module('app')
-        .controller('Page2Controller', Page2Controller);
+        .controller('AlbumsController', AlbumsController);
 
-    function Page2Controller() {
+    function AlbumsController() {
         var vm = this;
-        vm.message = 'Page 2!';
+        vm.header = 'Albums';
 
         activate();
 
@@ -17,6 +17,7 @@
         function activate() {
             // Resolve start-up logic
         }
+
     }
 
 })();
