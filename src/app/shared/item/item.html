@@ -1,5 +1,12 @@
-<div>
-  <h2>Title: {{ vm.item.title }}</h2>
-  <p>(<b>ID</b>: {{ vm.item.id }} | <b>User ID</b>: {{ vm.item.userId }})</p>
-  <p ng-if="vm.item.body">{{ vm.item.body }}</p>
+<div class="card border-dark mb-3 box-shadow" style="max-width: 18rem;">
+  <div class="card-header">
+    <span class="badge badge-pill badge-warning pull-left mr-2">{{ vm.item.id }}</span>
+    <h4 class="my-0 font-weight-normal">{{ vm.item.title }}</h4>
+  </div>
+  <div class="card-body">
+    <p class="card-text">{{ vm.item.body }}</p>
+  </div>
+  <div class="card-footer bg-transparent border-dark">
+    <span class="badge badge-pill badge-info pull-right">User ID = {{ vm.item.userId }}</span>
+  </div>
 </div>

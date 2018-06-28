@@ -4,17 +4,13 @@
 
     const appModule = angular.module('app');
 
-    appModule.value('debuggingBorder', true);
+    appModule.value('debuggingBorder', false);
     appModule.value('apiBase', 'https://jsonplaceholder.typicode.com/');
 
     appModule.config(function ($stateProvider) {
         var states = [{
             name: 'home',
             url: '',
-            template: '<home></home>'
-        }, {
-            name: 'home2',
-            url: '/',
             template: '<home></home>'
         }, {
             name: 'albums',

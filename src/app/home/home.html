@@ -1,8 +1,11 @@
-<div>
-    <h1>{{ vm.header }}</h1>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">{{ vm.header }}</h1>
+</div>
 
-    <button ng-click="vm.button = 1">Button 1</button>
-    <button ng-click="vm.button = 2">Button 2</button>
-
-    <h2>Button pressed: {{ vm.button }}</h2>
+<div class="mx-auto col-lg-3 text-center">
+    <button ng-click="vm.button = 1" class="btn btn-secondary m-1" ng-class="{'btn-dark': vm.button === 1}">Button 1</button>
+    <button ng-click="vm.button = 2" class="btn btn-secondary m-1" ng-class="{'btn-dark': vm.button === 2}">Button 2</button>
+</div>
+<div class="mx-auto col-lg-3">
+    <h3>Button pressed: {{ vm.button }}</h3>
 </div>
