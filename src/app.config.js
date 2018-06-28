@@ -2,7 +2,11 @@
 (function () {
     'use strict';
 
-    angular.module('app').config(function ($stateProvider) {
+    const appModule = angular.module('app');
+
+    appModule.value('debuggingBorder', true);
+
+    appModule.config(function ($stateProvider) {
         var states = [{
             name: 'home',
             url: '',
