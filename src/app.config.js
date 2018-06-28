@@ -5,6 +5,7 @@
     const appModule = angular.module('app');
 
     appModule.value('debuggingBorder', true);
+    appModule.value('apiBase', 'https://jsonplaceholder.typicode.com/');
 
     appModule.config(function ($stateProvider) {
         var states = [{
@@ -29,4 +30,4 @@
         });
     });
 
-})(); 
+})();

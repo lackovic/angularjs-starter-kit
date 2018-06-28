@@ -6,10 +6,11 @@
         .module('app')
         .controller('PostsController', PostsController);
 
-    function PostsController() {
+    function PostsController(apiBase, $http) {
         var vm = this;
-        vm.header = 'Posts';
         vm.$onInit = onInit;
+        vm.header = 'Posts';
+        vm.posts = null;
 
         activate();
 
@@ -17,6 +18,10 @@
 
         function activate() {
             // Resolve start-up logic
+            $http.get(apiBase + 'posts')
+                .then(function (response) {
+                    vm.posts = response;
+                });
         }
 
         function onInit() {
