@@ -7,7 +7,7 @@
     appModule.value('debuggingBorder', false);
     appModule.value('apiBase', 'https://jsonplaceholder.typicode.com/');
 
-    appModule.config(function ($stateProvider) {
+    appModule.config(function ($stateProvider, $urlRouterProvider) {
         var states = [{
             name: 'home',
             url: '',
@@ -24,6 +24,9 @@
         states.forEach(function (state) {
             $stateProvider.state(state);
         });
+        $urlRouterProvider.when('/', ['$state', '$match', function ($state, $match) {
+            $state.go('home');
+        }]);
     });
 
 })();
