@@ -12,8 +12,9 @@ A minimalist template (initial scaffolding or skeleton), similar to the [seed ap
 * Follows the [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1):
   * Folders-by-Feature structure;
   * Component-based design;
-  * Uses [AngularUI Router](http://angular-ui.github.io/ui-router/) for client-side routing;
-
+  * [AngularUI Router](http://angular-ui.github.io/ui-router/) for client-side routing;
+  * [Bootstrap](https://getbootstrap.com) - on the [bootstrap branch](https://github.com/lackovic/angularjs-starter-kit/tree/bootstrap);
+  
 ## How to use
 
 1. clone or download
