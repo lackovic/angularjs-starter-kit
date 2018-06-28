@@ -13,6 +13,7 @@ A minimalist template (initial scaffolding or skeleton), similar to the [seed ap
   * Folders-by-Feature structure;
   * Component-based design;
   * Uses [AngularUI Router](http://angular-ui.github.io/ui-router/) for client-side routing;
+  * [Bootstrap](https://getbootstrap.com/).
 
 ## How to use
 
