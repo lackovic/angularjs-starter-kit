@@ -20,7 +20,7 @@
             // Resolve start-up logic
             $http.get(apiBase + 'posts')
                 .then(function (response) {
-                    vm.posts = response;
+                    vm.posts = response.data;
                 });
         }
 

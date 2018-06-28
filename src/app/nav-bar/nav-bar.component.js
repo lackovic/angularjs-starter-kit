@@ -1,4 +1,4 @@
-// home.controller.js
+// home.component.js
 (function () {
     'use strict';
 

@@ -1,12 +1,12 @@
-// albums.controller.js
+// item.controller.js
 (function () {
     'use strict';
 
     angular
         .module('app')
-        .controller('AlbumController', AlbumController);
+        .controller('ItemController', ItemController);
 
-    function AlbumController() {
+    function ItemController() {
         var vm = this;
         vm.$onInit = onInit;
 

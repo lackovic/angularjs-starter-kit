@@ -1,4 +1,4 @@
-// albums.controller.js
+// albums.component.js
 (function () {
     'use strict';
 

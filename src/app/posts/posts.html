@@ -1,6 +1,6 @@
 <div>
   <h1>{{ vm.header }}</h1>
 </div>
-<div>
-  {{ vm.posts }}
+<div ng-repeat="post in vm.posts">
+  <item item="post"></item>
 </div>

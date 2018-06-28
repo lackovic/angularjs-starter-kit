@@ -1,4 +1,4 @@
-// posts.controller.js
+// posts.component.js
 (function () {
     'use strict';
 
