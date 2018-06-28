@@ -4,13 +4,11 @@
 
     angular
         .module('app')
-        .controller('AlbumsController', AlbumsController);
+        .controller('AlbumController', AlbumController);
 
-    function AlbumsController(apiBase, $http) {
+    function AlbumController() {
         var vm = this;
         vm.$onInit = onInit;
-        vm.albums = null;
-        vm.header = 'Albums';
 
         activate();
 
@@ -18,10 +16,6 @@
 
         function activate() {
             // Resolve start-up logic
-            $http.get(apiBase + 'albums')
-                .then(function (response) {
-                    vm.albums = response.data;
-                });
         }
 
         function onInit() {
