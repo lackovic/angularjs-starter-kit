@@ -1,4 +1,4 @@
-// app.module.js
+// app.debug.js
 (function () {
     'use strict';
 

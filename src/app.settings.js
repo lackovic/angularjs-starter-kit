@@ -1,4 +1,4 @@
-// app.module.js
+// app.settings.js
 (function () {
     'use strict';
 
