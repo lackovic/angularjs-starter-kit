@@ -9,7 +9,8 @@
   "dependencies": {
     "angular": "^1.7.2",
     "angular-ui-router": "^1.0.18",
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.1.1",
+    "run-sequence": "^2.2.1"
   },
   "devDependencies": {
     "del": "^3.0.0",
