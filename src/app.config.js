@@ -13,10 +13,6 @@
             url: '',
             template: '<home></home>'
         }, {
-            name: 'home2',
-            url: '/',
-            template: '<home></home>'
-        }, {
             name: 'albums',
             url: '/albums',
             template: '<albums></albums>'
