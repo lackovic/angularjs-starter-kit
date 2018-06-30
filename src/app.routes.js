@@ -1,4 +1,4 @@
-// app.module.js
+// app.routes.js
 (function () {
     'use strict';
 
