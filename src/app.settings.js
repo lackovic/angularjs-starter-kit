@@ -4,7 +4,7 @@
 
     angular.module('app')
 
-        .value('debuggingBorder', true)
+        .value('debuggingBorder', false)
         .value('apiBase', 'https://jsonplaceholder.typicode.com/')
 
 })();
