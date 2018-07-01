@@ -1,6 +1,6 @@
 # A starter kit for projects using the latest version of AngularJS
 
-A minimalist template (initial scaffolding or skeleton), similar to the [seed app project](https://github.com/angular/angular-seed).
+This project is an application skeleton (initial scaffolding or template) for a typical *modern* AngularJS web app.
 
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/lackovic/angularjs-starter-kit)
 
@@ -13,6 +13,7 @@ A minimalist template (initial scaffolding or skeleton), similar to the [seed ap
   * Folders-by-Feature structure;
   * Component-based design;
   * [AngularUI Router](http://angular-ui.github.io/ui-router/) for client-side routing;
+* Styles  
   * [Bootstrap](https://getbootstrap.com) - on the [bootstrap branch](https://github.com/lackovic/angularjs-starter-kit/tree/bootstrap);
 
 ## How to use
