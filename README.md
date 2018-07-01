@@ -13,6 +13,7 @@ This project is an application skeleton (initial scaffolding or template) for a 
   * Folders-by-Feature structure;
   * Component-based design;
   * [AngularUI Router](http://angular-ui.github.io/ui-router/) for client-side routing;
+  * Data calls through services;
 * Styles  
   * [Bootstrap](https://getbootstrap.com) - on the [bootstrap branch](https://github.com/lackovic/angularjs-starter-kit/tree/bootstrap);
 

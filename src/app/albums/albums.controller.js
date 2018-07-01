@@ -6,7 +6,7 @@
         .module('app')
         .controller('AlbumsController', AlbumsController);
 
-    function AlbumsController(apiBase, $http) {
+    function AlbumsController(albumsService) {
         var vm = this;
         vm.$onInit = onInit;
         vm.albums = null;
@@ -18,9 +18,9 @@
 
         function activate() {
             // Resolve start-up logic
-            $http.get(apiBase + 'albums')
-                .then(function (response) {
-                    vm.albums = response.data;
+            albumsService.getAlbums()
+                .then(function (albums) {
+                    vm.albums = albums;
                 });
         }
 
@@ -29,6 +29,7 @@
             // should be put in this method, which is guarranteed to
             // always be called after the bindings have been assigned.
         }
+
     }
 
 })();
