@@ -6,7 +6,7 @@
         .module('app')
         .controller('PostsController', PostsController);
 
-    function PostsController(apiBase, $http) {
+    function PostsController(postsService) {
         var vm = this;
         vm.$onInit = onInit;
         vm.header = 'Posts';
@@ -18,9 +18,9 @@
 
         function activate() {
             // Resolve start-up logic
-            $http.get(apiBase + 'posts')
-                .then(function (response) {
-                    vm.posts = response.data;
+            postsService.getPosts()
+                .then(function (posts) {
+                    vm.posts = posts;
                 });
         }
 
