@@ -9,13 +9,11 @@ This project is an application skeleton (initial scaffolding or template) for a 
 * Latest version of [AngularJS](https://angularjs.org);
 * [Yarn](https://yarnpkg.com/lang/en/) as package manager;
 * [Gulp](https://gulpjs.com) for building;
-* Follows the [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1):
-  * Folders-by-Feature structure;
-  * Component-based design;
-  * [AngularUI Router](http://angular-ui.github.io/ui-router/) for client-side routing;
-  * Data calls through services;
-* Styles  
-  * [Bootstrap](https://getbootstrap.com) - on the [bootstrap branch](https://github.com/lackovic/angularjs-starter-kit/tree/bootstrap);
+* Folders-by-Feature structure;
+* Component-based design;
+* [AngularUI Router](http://angular-ui.github.io/ui-router/) for client-side routing;
+* Data calls through services;
+* [Bootstrap](https://getbootstrap.com) - on the [bootstrap branch](https://github.com/lackovic/angularjs-starter-kit/tree/bootstrap);
 
 ## How to use
 
@@ -23,8 +21,10 @@ This project is an application skeleton (initial scaffolding or template) for a 
 2. `yarn`
 3. `gulp build`
 
-## Inspired by
+## References
 
+* [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1)
+* [AngularJS styleguide (ES2015)](https://github.com/toddmotto/angularjs-styleguide)
 * [AngularJS with Gulp Step by Step](https://youtu.be/p9ZngMW80-k) by Mark Winterbottom
 * [Designing and Building Component-based AngularJS Applications](https://app.pluralsight.com/library/courses/component-based-angularjs-applications) by Miguel Castro
 * [Ultimate AngularJS Component Oriented Design Guide](http://gautierdelorme.com/2016/04/20/ultimate-angularjs-component-oriented-design-guide.html)
