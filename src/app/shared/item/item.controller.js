@@ -7,7 +7,7 @@
         .controller('ItemController', ItemController);
 
     function ItemController() {
-        var vm = this;
+        const vm = this;
         vm.$onInit = onInit;
 
         activate();

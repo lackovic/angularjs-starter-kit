@@ -7,7 +7,7 @@
         .controller('NavBarController', NavBarController);
 
     function NavBarController() {
-        var vm = this;
+        const vm = this;
         vm.$onInit = onInit;
 
         activate();

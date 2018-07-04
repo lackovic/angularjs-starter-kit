@@ -7,7 +7,7 @@
         .controller('PostsController', PostsController);
 
     function PostsController(postsService) {
-        var vm = this;
+        const vm = this;
         vm.$onInit = onInit;
         vm.header = 'Posts';
         vm.posts = null;

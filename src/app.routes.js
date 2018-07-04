@@ -5,7 +5,7 @@
     angular.module('app')
 
         .config(function ($stateProvider, $urlRouterProvider) {
-            var states = [{
+            const states = [{
                 name: 'home',
                 url: '',
                 template: '<home></home>',

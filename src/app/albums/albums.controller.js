@@ -7,7 +7,7 @@
         .controller('AlbumsController', AlbumsController);
 
     function AlbumsController(albumsService) {
-        var vm = this;
+        const vm = this;
         vm.$onInit = onInit;
         vm.albums = null;
         vm.header = 'Albums';
