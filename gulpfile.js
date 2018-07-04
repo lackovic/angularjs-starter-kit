@@ -9,29 +9,29 @@ const templates = require('./templates');
 
 const buildDir = './dist/';
 
-gulp.task('css', function () {
+gulp.task('css', () => {
     return gulp.src(styles)
         .pipe(concat('style.css'))
         .pipe(gulp.dest(buildDir));
 });
 
-gulp.task('js', function () {
+gulp.task('js', () => {
     return gulp.src(scripts)
         .pipe(concat('script.js'))
         .pipe(gulp.dest(buildDir));
 });
 
-gulp.task('html', function () {
+gulp.task('html', () => {
     return gulp.src(templates)
         .pipe(gulp.dest(buildDir));
 });
 
-gulp.task('clean', function () {
+gulp.task('clean', () => {
     return del([buildDir]);
 });
 
 gulp.task('build', ['css', 'js', 'html']);
 
-gulp.task('default', function (callback) {
+gulp.task('default', callback => {
     runSequence('clean', ['css', 'js', 'html'], callback);
 });

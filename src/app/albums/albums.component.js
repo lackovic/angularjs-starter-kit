@@ -1,5 +1,5 @@
 // albums.component.js
-(function () {
+(() => {
     'use strict';
 
     angular

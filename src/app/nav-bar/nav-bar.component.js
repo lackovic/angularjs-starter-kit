@@ -1,5 +1,5 @@
 // home.component.js
-(function () {
+(() => {
     'use strict';
 
     angular

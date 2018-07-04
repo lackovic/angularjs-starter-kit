@@ -1,5 +1,5 @@
 // posts.component.js
-(function () {
+(() => {
     'use strict';
 
     angular

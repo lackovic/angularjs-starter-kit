@@ -1,5 +1,5 @@
 // albums.controller.js
-(function () {
+(() => {
     'use strict';
 
     angular
@@ -19,7 +19,7 @@
         function activate() {
             // Resolve start-up logic
             albumsService.getAlbums()
-                .then(function (albums) {
+                .then(albums => {
                     vm.albums = albums;
                 });
         }

@@ -1,5 +1,5 @@
 // posts.service.js
-(function () {
+(() => {
     'use strict';
 
     angular
@@ -19,7 +19,7 @@
                 .get(apiBase + 'posts', {
                     cache: true
                 })
-                .then(function (response) {
+                .then(response => {
                     return response.data;
                 });
         }

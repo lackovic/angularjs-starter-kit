@@ -1,5 +1,5 @@
 // item.controller.js
-(function () {
+(() => {
     'use strict';
 
     angular
