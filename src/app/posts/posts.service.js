@@ -19,9 +19,7 @@
                 .get(apiBase + 'posts', {
                     cache: true
                 })
-                .then(response => {
-                    return response.data;
-                });
+                .then(response => response.data);
         }
 
     }
