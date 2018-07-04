@@ -1,5 +1,5 @@
 // home.controller.js
-(function () {
+(() => {
     'use strict';
 
     angular
@@ -7,7 +7,7 @@
         .controller('HomeController', HomeController);
 
     function HomeController() {
-        var vm = this;
+        const vm = this;
         vm.header = 'Home sweet home!';
         vm.$onInit = onInit;
 

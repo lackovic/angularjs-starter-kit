@@ -1,5 +1,5 @@
 // albums.service.js
-(function () {
+(() => {
     'use strict';
 
     angular
@@ -19,7 +19,7 @@
                 .get(apiBase + 'albums', {
                     cache: true
                 })
-                .then(function (response) {
+                .then(response => {
                     return response.data;
                 });
         }

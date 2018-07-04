@@ -1,5 +1,5 @@
 // posts.controller.js
-(function () {
+(() => {
     'use strict';
 
     angular
@@ -7,7 +7,7 @@
         .controller('PostsController', PostsController);
 
     function PostsController(postsService) {
-        var vm = this;
+        const vm = this;
         vm.$onInit = onInit;
         vm.header = 'Posts';
         vm.posts = null;
@@ -19,7 +19,7 @@
         function activate() {
             // Resolve start-up logic
             postsService.getPosts()
-                .then(function (posts) {
+                .then(posts => {
                     vm.posts = posts;
                 });
         }

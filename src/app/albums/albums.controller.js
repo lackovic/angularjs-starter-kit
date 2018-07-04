@@ -1,5 +1,5 @@
 // albums.controller.js
-(function () {
+(() => {
     'use strict';
 
     angular
@@ -7,7 +7,7 @@
         .controller('AlbumsController', AlbumsController);
 
     function AlbumsController(albumsService) {
-        var vm = this;
+        const vm = this;
         vm.$onInit = onInit;
         vm.albums = null;
         vm.header = 'Albums';
@@ -19,7 +19,7 @@
         function activate() {
             // Resolve start-up logic
             albumsService.getAlbums()
-                .then(function (albums) {
+                .then(albums => {
                     vm.albums = albums;
                 });
         }
