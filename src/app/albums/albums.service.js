@@ -19,9 +19,7 @@
                 .get(apiBase + 'albums', {
                     cache: true
                 })
-                .then(response => {
-                    return response.data;
-                });
+                .then(response => response.data);
         }
 
     }
