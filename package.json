@@ -8,12 +8,12 @@
   "license": "MIT",
   "dependencies": {
     "angular": "^1.7.2",
-    "angular-ui-router": "^1.0.18",
-    "run-sequence": "^2.2.1"
+    "angular-ui-router": "^1.0.18"
   },
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+    "run-sequence": "^2.2.1"
   }
 }
