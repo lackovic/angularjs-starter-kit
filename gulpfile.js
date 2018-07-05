@@ -31,5 +31,5 @@ gulp.task('clean', () => del([buildDir]));
 gulp.task('build', ['css', 'js', 'html']);
 
 gulp.task('default', callback => {
-    runSequence('clean', ['css', 'js', 'html'], callback);
+    runSequence('clean', ['build'], callback);
 });
