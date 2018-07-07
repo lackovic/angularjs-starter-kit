@@ -5,7 +5,7 @@
         .module('app')
         .factory('albumsService', AlbumsService);
 
-    function AlbumsService(apiBase, $http) {
+    function AlbumsService(apiService) {
 
         return {
             getAlbums: getAlbums
@@ -14,11 +14,8 @@
         ////////////
 
         function getAlbums() {
-            return $http
-                .get(`${apiBase}albums`, {
-                    cache: true
-                })
-                .then(response => response.data);
+            return apiService
+                .get('albums', true);
         }
 
     }
