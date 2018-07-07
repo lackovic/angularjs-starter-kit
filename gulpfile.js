@@ -26,9 +26,16 @@ gulp.task('html', () =>
     .pipe(gulp.dest(buildDir))
 );
 
+gulp.task('assets', function () {
+    return gulp.src([
+            'assets/**/*'
+        ])
+        .pipe(gulp.dest(buildDir));
+});
+
 gulp.task('clean', () => del([buildDir]));
 
-gulp.task('build', ['css', 'js', 'html']);
+gulp.task('build', ['css', 'js', 'html', 'assets']);
 
 gulp.task('default', callback => {
     runSequence('clean', ['build'], callback);
