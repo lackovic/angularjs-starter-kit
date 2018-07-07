@@ -5,7 +5,7 @@
         .module('app')
         .factory('postsService', PostsService);
 
-    function PostsService(apiBase, $http) {
+    function PostsService(apiService) {
 
         return {
             getPosts: getPosts
@@ -14,11 +14,8 @@
         ////////////
 
         function getPosts() {
-            return $http
-                .get(`${apiBase}posts`, {
-                    cache: true
-                })
-                .then(response => response.data);
+            return apiService
+                .get('posts', true);
         }
 
     }
