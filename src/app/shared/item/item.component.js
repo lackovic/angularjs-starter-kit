@@ -1,6 +1,5 @@
 // item.component.js
 (() => {
-    'use strict';
 
     angular
         .module('app')

@@ -1,6 +1,5 @@
 // albums.service.js
 (() => {
-    'use strict';
 
     angular
         .module('app')

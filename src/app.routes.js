@@ -1,6 +1,5 @@
 // app.routes.js
 (() => {
-    'use strict';
 
     angular.module('app')
 

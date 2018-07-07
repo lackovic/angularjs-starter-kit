@@ -1,6 +1,5 @@
 // posts.component.js
 (() => {
-    'use strict';
 
     angular
         .module('app')

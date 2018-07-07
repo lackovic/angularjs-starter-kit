@@ -1,6 +1,5 @@
 // app.debug.js
 (() => {
-    'use strict';
 
     angular.module('app')
 
