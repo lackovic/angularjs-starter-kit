@@ -15,7 +15,7 @@
 
         function getPosts() {
             return $http
-                .get(apiBase + 'posts', {
+                .get(`${apiBase}posts`, {
                     cache: true
                 })
                 .then(response => response.data);

@@ -15,7 +15,7 @@
 
         function getAlbums() {
             return $http
-                .get(apiBase + 'albums', {
+                .get(`${apiBase}albums`, {
                     cache: true
                 })
                 .then(response => response.data);
