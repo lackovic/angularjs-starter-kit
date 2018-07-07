@@ -1,6 +1,5 @@
 // posts.service.js
 (() => {
-    'use strict';
 
     angular
         .module('app')
@@ -16,7 +15,7 @@
 
         function getPosts() {
             return $http
-                .get(apiBase + 'posts', {
+                .get(`${apiBase}posts`, {
                     cache: true
                 })
                 .then(response => response.data);

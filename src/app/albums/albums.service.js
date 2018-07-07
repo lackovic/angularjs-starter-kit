@@ -1,6 +1,5 @@
 // albums.service.js
 (() => {
-    'use strict';
 
     angular
         .module('app')
@@ -16,7 +15,7 @@
 
         function getAlbums() {
             return $http
-                .get(apiBase + 'albums', {
+                .get(`${apiBase}albums`, {
                     cache: true
                 })
                 .then(response => response.data);

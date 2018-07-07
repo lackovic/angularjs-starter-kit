@@ -1,6 +1,5 @@
 // app.settings.js
 (() => {
-    'use strict';
 
     angular.module('app')
 
